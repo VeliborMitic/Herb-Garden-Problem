@@ -17,19 +17,19 @@ Plants before harvesting Plant to harvest Plants after harvesting Total leaves h
 
 # Input / Output
 
-[input] array.integer plants  
+<h5>[input] array.integer plants</h5>  
 An array of integers representing the initial number of leaves on each plant.
 
-Guaranteed constraints:  
+<h6>Guaranteed constraints:<h6>  
 1 ≤ plants.length ≤ 10  
 0 ≤ plants[i] ≤ 10  
 
-[input] integer days  
+<h5>[input] integer days</h5>  
 An integer representing the number of days over which we're trying to maximize the number of total leaves we can collect.  
 This is also equal to the number of times you'll harvest a plant, since you harvest one each day.
 
-<h4>Guaranteed constraints:</h4>  
+<h6>Guaranteed constraints:</h6>  
 1 ≤ days ≤ 100
 
-[output] integer  
+<h5>[output] integer</h5>  
 An integer representing the maximum total number of leaves you can harvest in the given number of days.

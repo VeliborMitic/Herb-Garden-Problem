@@ -6,7 +6,8 @@ public class Util {
         int indexOfMaxElement = 0;
         int j = array.length - 1;
         for (int i = 0; i <= j;) {
-            indexOfMaxElement = array[i] >= array[j] ? i : j;
+            int tempIndex = array[i] >= array[j] ? i : j;
+            indexOfMaxElement = array[tempIndex] > array[indexOfMaxElement] ? tempIndex : indexOfMaxElement;
             i++; j--;
         }
         return indexOfMaxElement;

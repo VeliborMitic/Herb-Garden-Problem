@@ -10,10 +10,10 @@ For plants = [2, 7, 5, 3] and days = 3,  the output should be herbGarden(plants,
 The maximum total number of leaves that can be harvested over the course of 3 days is 10.  
 Here's one way to do it:
 
-Plants before harvesting Plant to harvest Plants after harvesting Total leaves harvested  
-&emsp;&emsp;[2, 7, 5, 3]-----------------1-----------------[2, 4, 5, 3]--------------3  
--------[4, 6, 7, 5]-----------------2-----------------[4, 6, 4, 5]--------------6  
--------[6, 8, 6, 7]-----------------1-----------------[6, 4, 6, 7]-------------10  
+Plants before harvesting &emsp;Plant to harvest &emsp;Plants after harvesting &emsp;Total leaves harvested  
+&emsp;&emsp;[2, 7, 5, 3]&emsp;&emsp;&emsp;1&emsp;&emsp;&emsp;[2, 4, 5, 3]&emsp;&emsp;&emsp;3  
+&emsp;&emsp;[4, 6, 7, 5]&emsp;&emsp;&emsp;2&emsp;&emsp;&emsp;[4, 6, 4, 5]&emsp;&emsp;&emsp;6  
+&emsp;&emsp;[6, 8, 6, 7]&emsp;&emsp;&emsp;1&emsp;&emsp;&emsp;[6, 4, 6, 7]&emsp;&emsp;&emsp;10  
 
 # Input / Output
 

@@ -31,5 +31,4 @@ This is also equal to the number of times you'll harvest a plant, since you harv
 <h5>Guaranteed constraints:</h5>
 1 ≤ days ≤ 100
 
-<h4>[output] integer</h4>
-An integer representing the maximum total number of leaves you can harvest in the given number of days.
+<h4>[output] integer</h4>An integer representing the maximum total number of leaves you can harvest in the given number of days.

@@ -11,7 +11,7 @@ The maximum total number of leaves that can be harvested over the course of 3 da
 Here's one way to do it:
 
 Plants before harvesting Plant to harvest Plants after harvesting Total leaves harvested  
--------[2, 7, 5, 3]-----------------1-----------------[2, 4, 5, 3]--------------3  
+&emsp;&emsp;[2, 7, 5, 3]-----------------1-----------------[2, 4, 5, 3]--------------3  
 -------[4, 6, 7, 5]-----------------2-----------------[4, 6, 4, 5]--------------6  
 -------[6, 8, 6, 7]-----------------1-----------------[6, 4, 6, 7]-------------10  
 

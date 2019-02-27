@@ -28,7 +28,7 @@ Guaranteed constraints:
 An integer representing the number of days over which we're trying to maximize the number of total leaves we can collect.  
 This is also equal to the number of times you'll harvest a plant, since you harvest one each day.
 
-<h2>Guaranteed constraints:</h2>  
+<h4>Guaranteed constraints:</h4>  
 1 ≤ days ≤ 100
 
 [output] integer  

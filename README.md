@@ -17,7 +17,7 @@ Plants before harvesting Plant to harvest Plants after harvesting Total leaves h
 
 # Input / Output
 
-<h4>[input] array.integer plants</h4>  
+<h4>[input] array.integer plants</h4>
 An array of integers representing the initial number of leaves on each plant.
 
 <h5>Guaranteed constraints:<h5>

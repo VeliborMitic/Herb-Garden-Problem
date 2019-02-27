@@ -5,9 +5,9 @@ public class HerbGardenProblem {
 
     public int calculateMaxLeaves(int[] plants, int days) {
         while (true) {
-            if (InputValidation.isValidArrayLenght(plants)
-                    && InputValidation.isValidNumberOfLeaves(plants)
-                    && InputValidation.isValidNumOfDays(days)) {
+            if (Util.isValidArrayLenght(plants)
+                    && Util.isValidNumberOfLeaves(plants)
+                    && Util.isValidNumOfDays(days)) {
 
                 int maxIndex = Util.indexOfMaxArrayElement(plants);
                 maxNumberOfLeavesHarvested += plants[maxIndex] / 2;
